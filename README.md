@@ -7,12 +7,12 @@
     <a href="https://www.linkedin.com/in/g-stefanski/">
       <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
     </a>
-    <a href="https://masto.ai/@gs">
+<!--     <a href="https://masto.ai/@gs">
       <img src="https://img.shields.io/badge/Mastodon-blue?style=for-the-badge&logo=mastodon&logoColor=white&color=6364FF" alt="Twitter Badge"/>
     </a>
     <a href="https://twitter.com/G_Stefanski">
       <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
-    </a>
+    </a> -->
   </div>
   <h2>
     Hi 👋, I’m Grzegorz Stefański.
@@ -37,6 +37,15 @@ The real-time processing of time series signals is a critical issue for many rea
 <p align="center">
   <img src="images/STMC_blocks_color.png" width="600">
 </p>
+
+#### [SOI: Scaling Down Computational Complexity by Estimating Partial States of the Model](https://arxiv.org/abs/2410.03813), Conference on Neural Information Processing Systems (NeurIPS), 2024
+
+Consumer electronics used to follow the miniaturization trend described by Moore's Law. Despite increased processing power in Microcontroller Units (MCUs), MCUs used in the smallest appliances are still not capable of running even moderately big, state-of-the-art artificial neural networks (ANNs) especially in time-sensitive scenarios. In this work, we present a novel method called Scattered Online Inference (SOI) that aims to reduce the computational complexity of ANNs. SOI leverages the continuity and seasonality of time-series data and model predictions, enabling extrapolation for processing speed improvements, particularly in deeper layers. By applying compression, SOI generates more general inner partial states of ANN, allowing skipping full model recalculation at each inference.
+
+<p align="center">
+  <img src="images/SOI.png" width="600">
+</p>
+
 
 ---
 
