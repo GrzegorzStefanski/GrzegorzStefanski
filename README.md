@@ -21,7 +21,7 @@
 
 
 ### About Me :
-I'm a data scientist working at Samsung AI Center Warsaw. My experiance resolves around:
+I'm a research scientist working at Samsung AI Center Warsaw. My experiance resolves around:
 - Audio AI 
 - Computer Vision
 - Data Synthetisation
