@@ -46,6 +46,13 @@ Consumer electronics used to follow the miniaturization trend described by Moore
   <img src="images/SOI.png" width="600">
 </p>
 
+#### [Routing the Lottery: Adaptive Subnetworks for Heterogeneous Data](https://arxiv.org/abs/2601.22141), Preprint
+
+The Lottery Ticket Hypothesis posits that large networks contain sparse subnetworks, or winning tickets, that can be trained in isolation to match the performance of their dense counterparts. However, most existing approaches assume a single universal winning ticket shared across all inputs, ignoring the inherent heterogeneity of real-world data. In this work, we propose Routing the Lottery (RTL), an adaptive pruning framework that discovers multiple specialized subnetworks, called adaptive tickets, each tailored to a class, semantic cluster, or environmental condition. Across diverse datasets and tasks, RTL consistently outperforms single- and multi-model baselines in balanced accuracy and recall, while using up to 10 times fewer parameters than independently pruned models and producing semantically aligned subnetworks. Furthermore, we identify subnetwork collapse, a performance drop under aggressive pruning, and introduce a subnetwork similarity score that enables label-free diagnosis of oversparsification. Overall, our results recast pruning as a mechanism for aligning model structure with data heterogeneity, paving the way toward more modular and context-aware deep learning.
+
+<p align="center">
+  <img src="images/RTL.png" width="1000">
+</p>
 
 ---
 
